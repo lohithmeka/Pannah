@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaah - Page 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="nav-header">
+
+    <div class="nav-left">
+        <img src="images/logo.png" alt="Logo" class="nav-logo">
+    </div>
+
+    <nav class="nav-right">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="we.html">We</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="reimagine.html">To Reimagine</a></li>
+            <li><a href="communities.html">Communities</a></li>
+        </ul>
+    </nav>
+
+    <!-- HAMBURGER ICON -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="we.html">We</a>
+    <a href="work.html">Work</a>
+    <a href="reimagine.html">To Reimagine</a>
+    <a href="communities.html">Communities</a>
+</div>
+
+
+
+
+
+<section class="part-section">
+
+    <!-- LEFT IMAGE -->
+    <img src="images/last.png" alt="" class="part-side-img left-img">
+
+    <div class="part-box">
+        <h2 class="part-title">play a part</h2>
+        <p class="part-sub">we invite you to engage with panaah in meaningful ways</p>
+
+        <div class="part-row">
+            <span>donate</span>
+            <span class="arrow">⌄</span>
+        </div>
+
+        <div class="part-row">
+            <span>experience</span>
+            <span class="arrow">⌄</span>
+        </div>
+
+        <div class="part-row">
+            <span>volunteer</span>
+            <span class="arrow">⌄</span>
+        </div>
+
+        <div class="part-row">
+            <span>careers</span>
+            <span class="arrow">⌄</span>
+        </div>
+
+        <div class="part-row">
+            <span>success stories</span>
+            <span class="arrow">⌄</span>
+        </div>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <img src="images/last.png" alt="" class="part-side-img right-img">
+
+</section>
+
+<footer class="footer-section">
+
+    <div class="footer-top">
+
+        <!-- LEFT CONTACT INFO -->
+        <div class="footer-left">
+
+            <div class="footer-item">
+                <i class="fa-solid fa-phone footer-icon"></i>
+                <div>
+                    <p class="footer-label">CALL US</p>
+                    <p class="footer-text">+91 9594749698</p>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <i class="fa-solid fa-envelope footer-icon"></i>
+                <div>
+                    <p class="footer-label">MAIL</p>
+                    <p class="footer-text">admin@panaahcommunities.org</p>
+                    <p class="footer-text">https://panaahcommunities.org</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SOCIAL ICONS -->
+        <div class="footer-social">
+            <i class="fa-brands fa-facebook-f social-icon"></i>
+            <i class="fa-brands fa-instagram social-icon"></i>
+            <i class="fa-brands fa-linkedin-in social-icon"></i>
+        </div>
+
+    </div>
+
+    <!-- LOGO IMAGE -->
+    
+
+</footer>
+<footer class="foo">
+    <div class="footer-bottom">
+        <img src="images/logo.png" class="footer-logo" alt="Panaah Logo">
+    </div>
+</footer>
+<script>
+    
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    mobileMenu.classList.toggle("active");
+});
+
+</script>
+</body>
+</html>
